@@ -5,6 +5,6 @@ const buttonOff = document.querySelector('button')
 
 buttonOff.addEventListener(
     'click', function() {
-        console.log('tasto cliccato')
+        lightOff.src='img/yellow_lamp.png'
     }
 )
